@@ -31,7 +31,7 @@ app.get('/wellcome', (req, res) => {
   res.send(getWelcomeMessage());
 });
 
-Function getWelcomeMessage(){
+function getWelcomeMessage(){
   return "Wellcome to this service"
 }
 
